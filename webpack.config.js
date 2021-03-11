@@ -1,3 +1,5 @@
+/* eslint no-undef: 0 */
+
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
@@ -20,7 +22,7 @@ module.exports = {
             },
             {
                 test: /\.css$/i,
-                use: ["style-loader", "css-loader"]
+                use: ['style-loader', 'css-loader']
             }
         ]
     },
@@ -40,4 +42,4 @@ module.exports = {
             template: path.join(__dirname, 'src/templates', 'index.html')
         })
     ]
-}
+};
