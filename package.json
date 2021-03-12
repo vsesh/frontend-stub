@@ -9,9 +9,11 @@
         "prepare": "husky install"
     },
     "dependencies": {
+        "bem-cn": "^3.0.1",
+        "mobx": "^6.1.8",
+        "mobx-react": "^7.1.0",
         "react": "^16.12.0",
-        "react-dom": "^16.12.0",
-        "bem-cn": "^3.0.1"
+        "react-dom": "^16.12.0"
     },
     "devDependencies": {
         "@types/react": "^16.8.24",
